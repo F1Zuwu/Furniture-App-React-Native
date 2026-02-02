@@ -10,7 +10,7 @@ export default function Index() {
     >
       <Image
         style={homeStyles.image}
-        source={require("../assets/content/splash_image.png")}
+        source={require("@/assets/content/splash_image.png")}
       />
 
       <Text style={homeStyles.headline}>You'll Find</Text>

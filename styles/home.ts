@@ -16,6 +16,7 @@ export const homeStyles = StyleSheet.create({
   headline: {
     fontFamily: "DMSans_700Bold",
     fontSize: 40,
+    fontWeight: "700",
     textAlign: "center",
   },
   SignupButton: {
@@ -52,6 +53,7 @@ export const homeStyles = StyleSheet.create({
     fontFamily: "DMSans_700Bold",
     fontSize: 40,
     textAlign: "center",
+    fontWeight: "700",
     textDecorationLine: "underline",
     textDecorationColor: "#FCA34D",
     color: "#FCA34D"
