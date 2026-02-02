@@ -70,7 +70,7 @@ export default function SignUpScreen() {
                 </Pressable>
 
                 <View style={{alignItems:"center", marginTop: 24}}>
-                    <Text style={{ fontFamily: "Montserrat", fontSize: 14, fontWeight: "600" }}>Already have an account? <Text style={{ fontWeight: "700", fontFamily: "Montserrat", fontSize: 14, color: "#4F63AC" }} onPress={() => router.push("/signin")}>Sign in</Text></Text>
+                    <Text style={{ fontFamily: "Montserrat", fontSize: 14, color: "#4F63AC", fontWeight: "600" }}>Already have an account? <Text style={{ fontWeight: "700", fontFamily: "Montserrat", fontSize: 14 }} onPress={() => router.push("/signin")}>Sign in</Text></Text>
                 </View>
             </View>
         </SafeAreaView>
