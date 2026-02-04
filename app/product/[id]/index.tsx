@@ -6,7 +6,7 @@ const Product = () => {
         <View style={{ flex: 1, backgroundColor: "#FFFFFF"}}>
             <View>
               <Image style={{maxHeight: 441, width: "100%" }} source={require("@/assets/content/template_products/stand_big.png")}></Image>
-              <View style={{position: "absolute", bottom: 16, width: "100%", justifyContent: "center", alignItems: "center", gap:10, flexDirection: "row"}}>
+              <View style={{position: "absolute", bottom: 32, width: "100%", justifyContent: "center", alignItems: "center", gap:10, flexDirection: "row"}}>
                 <View style={{height: 4, width: 30, backgroundColor: "#303030", borderRadius: 4}}></View>
                 <View style={{height: 4, width: 15, backgroundColor: "#F0F0F0", borderRadius: 4}}></View>
                 <View style={{height: 4, width: 15, backgroundColor: "#F0F0F0", borderRadius: 4}}></View>

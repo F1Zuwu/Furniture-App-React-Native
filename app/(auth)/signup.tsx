@@ -3,7 +3,7 @@ import { router } from "expo-router";
 import { useState } from "react";
 import { Image, Pressable, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { LabeledTextInput } from "../components/LabeledTextInput";
+import { LabeledTextInput } from "../../components/LabeledTextInput";
 
 export default function SignUpScreen() {
     const [agreedToTerms, setAgreedToTerms] = useState(false);

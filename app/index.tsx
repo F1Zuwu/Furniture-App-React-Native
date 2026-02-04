@@ -19,14 +19,14 @@ export default function Index() {
 
       <Pressable
         style={homeStyles.SignupButton}
-        onPress={() => router.push("/signup")}
+        onPress={() => router.push("/(auth)/signup")}
       >
         <Text style={homeStyles.SignupButtonText}>Sign up</Text>
       </Pressable>
 
       <Pressable
         style={homeStyles.SignInButton}
-        onPress={() => router.push("/signin")}
+        onPress={() => router.push("/(auth)/signin")}
       >
         <Text style={homeStyles.SignInButtonText}>Sign in</Text>
       </Pressable>
