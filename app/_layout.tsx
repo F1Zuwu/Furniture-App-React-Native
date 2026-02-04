@@ -10,8 +10,10 @@ export default function RootLayout() {
     const prepare = async () => {
       try {
         await Font.loadAsync({
-          DM_Sans: require("../assets/fonts/DM_Sans/DMSans.ttf"),
-          Montserrat: require("../assets/fonts/Montserrat/Monst.ttf"),
+          DM_Sans: require("@/assets/fonts/DM_Sans/DMSans.ttf"),
+          Montserrat: require("@/assets/fonts/Montserrat/Monst.ttf"),
+          Nunito: require("@/assets/fonts/Nunito_Sans/Nunito.ttf"),
+          Gelasio: require("@/assets/fonts/Gelasio/Gelasio.ttf"),
         });
       } catch (e) {
         console.warn(e);
@@ -28,6 +30,7 @@ export default function RootLayout() {
       <Stack.Screen name="signup" options={{ headerShown: false }} />
       <Stack.Screen name="signin" options={{ headerShown: false }} />
       <Stack.Screen name="home" options={{ headerShown: false }} />
+      <Stack.Screen name="product" options={{ headerShown: false }} />
     </Stack>
   );
 }
