@@ -9,7 +9,15 @@ const ProductsList = () => {
                     <Text style={{ fontSize: 14 }}>Black Simple Lamp</Text>
                     <Text style={{ fontSize: 14 }}>$12.00</Text>
                 </Pressable>
-                <Pressable onPress={() => router.push("/product")} style={{ gap: 10, width: "47%" }}>
+                <Pressable
+                    onPress={() =>
+                        router.push({
+                            pathname: "/product/[id]" as any,
+                            params: { id: "1" },
+                        })
+                    }
+                    style={{ gap: 10, width: "47%" }}
+                >
                     <Image style={{ width: "100%", borderRadius: 14}} source={require("@/assets/content/template_products/stand.png")}></Image>
                     <Text style={{ fontSize: 14 }}>Black Simple Lamp</Text>
                     <Text style={{ fontSize: 14 }}>$12.00</Text>

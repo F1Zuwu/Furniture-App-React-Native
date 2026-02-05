@@ -40,7 +40,7 @@ export default function SignInScreen() {
                     justifyContent: "center",
                     width: "100%",
                     alignItems: "center",
-                }} onPress={() => router.push("/home")}><Text style={{ color: "white", fontFamily: "Montserrat", fontSize: 16, fontWeight: "700" }}>Sign In</Text></Pressable>
+                }} onPress={() => router.replace("/home")}><Text style={{ color: "white", fontFamily: "Montserrat", fontSize: 16, fontWeight: "700" }}>Sign In</Text></Pressable>
 
                 <View style={{ flexDirection: "row", alignItems: "center", gap: 12, marginTop: 16, justifyContent: "center" }}>
                     <View style={{ backgroundColor: "black", height: 1, width: 90 }}></View>
@@ -53,7 +53,7 @@ export default function SignInScreen() {
                 </Pressable>
 
                 <View style={{ alignItems: "center", marginTop: 24 }}>
-                    <Text style={{ fontFamily: "Montserrat", fontSize: 14, color: "#4F63AC", fontWeight: "600" }}>Don't have an account? <Text style={{ fontWeight: "700", fontFamily: "Montserrat", fontSize: 14 }} onPress={() => router.push("/signup")}>Sign up</Text></Text>
+                    <Text style={{ fontFamily: "Montserrat", fontSize: 14, color: "#4F63AC", fontWeight: "600" }}>Don't have an account? <Text style={{ fontWeight: "700", fontFamily: "Montserrat", fontSize: 14 }} onPress={() => router.replace("/signup")}>Sign up</Text></Text>
                 </View>
             </View>
         </SafeAreaView>

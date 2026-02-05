@@ -2,6 +2,9 @@ import * as Font from "expo-font";
 import { Stack } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";
 import { useEffect } from "react";
+import { View } from "react-native";
+
+import TabNavbar from "@/components/UI/TabNavbar";
 
 SplashScreen.preventAutoHideAsync();
 
@@ -25,16 +28,22 @@ export default function RootLayout() {
   }, []);
 
   return (
-    <Stack>
-      <Stack.Screen name="index" options={{ headerShown: false }} />
+    <View style={{ flex: 1, backgroundColor: "#FFFFFF" }}>
+      <View style={{ flex: 1 }}>
+        <Stack
+          screenOptions={{
+            headerShown: false,
+            animation: "none",
+            gestureEnabled: false,
+          }}
+        >
+          <Stack.Screen name="home" />
+          <Stack.Screen name="favorites" />
+          <Stack.Screen name="profile" />
+        </Stack>
+      </View>
 
-      <Stack.Screen name="(auth)" options={{ headerShown: false }} />
-      <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-      
-      <Stack.Screen name="product/[id]" options={{ headerShown: false }} />
-
-      <Stack.Screen name="home" options={{ headerShown: false }} />
-      
-    </Stack>
+      <TabNavbar />
+    </View>
   );
 }
