@@ -6,8 +6,8 @@ const ProductsList = () => {
             <View style={{ display: "flex", flexWrap: "wrap", flexDirection: "row", gap: 16 }}>
                 <Pressable style={{ gap: 10, width: "47%" }}>
                     <Image style={{ width: "100%", borderRadius: 14}} source={require("@/assets/content/template_products/Lamp.png")}></Image>
-                    <Text style={{ fontSize: 14 }}>Black Simple Lamp</Text>
-                    <Text style={{ fontSize: 14 }}>$12.00</Text>
+                    <Text style={{ fontSize: 14, fontWeight: "400", color: "#606060" }}>Black Simple Lamp</Text>
+                    <Text style={{ fontSize: 14, fontWeight: "700" }}>$12.00</Text>
                 </Pressable>
                 <Pressable
                     onPress={() =>
@@ -19,33 +19,33 @@ const ProductsList = () => {
                     style={{ gap: 10, width: "47%" }}
                 >
                     <Image style={{ width: "100%", borderRadius: 14}} source={require("@/assets/content/template_products/stand.png")}></Image>
-                    <Text style={{ fontSize: 14 }}>Black Simple Lamp</Text>
-                    <Text style={{ fontSize: 14 }}>$12.00</Text>
+                    <Text style={{ fontSize: 14, fontWeight: "400", color: "#606060" }}>Black Simple Lamp</Text>
+                    <Text style={{ fontSize: 14, fontWeight: "700" }}>$12.00</Text>
                 </Pressable>
                 <Pressable style={{ gap: 10, width: "47%" }}>
                     <Image style={{ width: "100%", borderRadius: 14}} source={require("@/assets/content/template_products/Lamp.png")}></Image>
-                    <Text style={{ fontSize: 14 }}>Black Simple Lamp</Text>
-                    <Text style={{ fontSize: 14 }}>$12.00</Text>
+                    <Text style={{ fontSize: 14, fontWeight: "400", color: "#606060" }}>Black Simple Lamp</Text>
+                    <Text style={{ fontSize: 14, fontWeight: "700" }}>$12.00</Text>
                 </Pressable>
                 <Pressable style={{ gap: 10, width: "47%" }}>
                     <Image style={{ width: "100%", borderRadius: 14}} source={require("@/assets/content/template_products/stand.png")}></Image>
-                    <Text style={{ fontSize: 14 }}>Black Simple Lamp</Text>
-                    <Text style={{ fontSize: 14 }}>$12.00</Text>
+                    <Text style={{ fontSize: 14, fontWeight: "400", color: "#606060" }}>Black Simple Lamp</Text>
+                    <Text style={{ fontSize: 14, fontWeight: "700" }}>$12.00</Text>
                 </Pressable>
                 <Pressable style={{ gap: 10, width: "47%" }}>
                     <Image style={{ width: "100%", borderRadius: 14}} source={require("@/assets/content/template_products/Lamp.png")}></Image>
-                    <Text style={{ fontSize: 14 }}>Black Simple Lamp</Text>
-                    <Text style={{ fontSize: 14 }}>$12.00</Text>
+                    <Text style={{ fontSize: 14, fontWeight: "400", color: "#606060" }}>Black Simple Lamp</Text>
+                    <Text style={{ fontSize: 14, fontWeight: "700" }}>$12.00</Text>
                 </Pressable>
                 <Pressable style={{ gap: 10, width: "47%" }}>
                     <Image style={{ width: "100%", borderRadius: 14}} source={require("@/assets/content/template_products/stand.png")}></Image>
-                    <Text style={{ fontSize: 14 }}>Black Simple Lamp</Text>
-                    <Text style={{ fontSize: 14 }}>$12.00</Text>
+                    <Text style={{ fontSize: 14, fontWeight: "400", color: "#606060" }}>Black Simple Lamp</Text>
+                    <Text style={{ fontSize: 14, fontWeight: "700" }}>$12.00</Text>
                 </Pressable>
                 <Pressable style={{ gap: 10, width: "47%" }}>
                     <Image style={{ width: "100%", borderRadius: 14}} source={require("@/assets/content/template_products/Lamp.png")}></Image>
-                    <Text style={{ fontSize: 14 }}>Black Simple Lamp</Text>
-                    <Text style={{ fontSize: 14 }}>$12.00</Text>
+                    <Text style={{ fontSize: 14, fontWeight: "400", color: "#606060" }}>Black Simple Lamp</Text>
+                    <Text style={{ fontSize: 14, fontWeight: "700" }}>$12.00</Text>
                 </Pressable>
             </View>
     )

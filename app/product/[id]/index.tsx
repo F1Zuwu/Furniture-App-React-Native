@@ -22,12 +22,11 @@ const Product = () => {
                 </Pressable>
             </SafeAreaView>
 
-            <View style={{borderRadius: 16,width: "100%", height: 20 , backgroundColor: "#FFFFFF", transform: [{ translateY: -6 }]}}></View>
+            <View style={{borderRadius: 16, width: "100%", height: 20 , backgroundColor: "#FFFFFF", transform: [{ translateY: -6 }]}}></View>
             <View style={{padding: 24}}>
                 <Text style={{fontSize: 24, marginBottom: 18, fontFamily: "Gelasio", fontWeight: "500"}}>Minimal Stand</Text>
-                <Text style={{fontSize: 12, marginBottom: 8, fontFamily: "Nunito", fontWeight: "300", opacity: 0.6}}>Product id: {id}</Text>
-                <Text style={{fontSize: 30, marginBottom: 24, fontFamily: "Nunito", fontWeight: "700"}}>$ 50</Text>
-                <Text style={{fontSize: 14, fontFamily: "Nunito", fontWeight: "300"}}>Minimal Stand is made of by natural wood. The design that is very simple and minimal. This is truly one of the best furnitures in any family for now. With 3 different colors, you can easily select the best match for your home. </Text>
+                <Text style={{fontSize: 30, marginBottom: 24, fontWeight: "700"}}>$ 50</Text>
+                <Text style={{fontSize: 14, fontWeight: "300"}}>Minimal Stand is made of by natural wood. The design that is very simple and minimal. This is truly one of the best furnitures in any family for now. With 3 different colors, you can easily select the best match for your home. </Text>
             </View>
 
             <View style={{flexDirection: "row", alignItems:"center", paddingHorizontal: 25, position: "absolute", bottom: 30, width: "100%", justifyContent: "space-between"}}>
@@ -35,7 +34,7 @@ const Product = () => {
                     <Image style={{width: 28, height: 28}} source={require("@/assets/icons/TabNavbar/favorites.png")}></Image>
                 </Pressable>
                 <Pressable style={{backgroundColor: "#4F63AC", paddingVertical: 18, borderRadius: 8, height: 60, width: "80%", justifyContent: "center", alignItems: "center"}}>
-                    <Text style={{color: "#FFFFFF", fontFamily: "Nunito", fontWeight: "700"}}>Contact seller</Text>
+                    <Text style={{color: "#FFFFFF", fontWeight: "700"}}>Contact seller</Text>
                 </Pressable>
             </View>
 
