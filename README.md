@@ -20,4 +20,4 @@ see järel käivita api
 node server.js
 ```
 
-ja käivita frontend npm run start
+ja käivita frontend ```npm run start```
